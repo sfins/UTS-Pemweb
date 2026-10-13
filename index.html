@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Beranda | Kolam Pak Rizky</title>
+	<meta name="description"
+		content="Kolam Pak Rizky adalah peternakan ikan yang dikelola di lahan pribadi. Peternakan ini berada di kota Surabaya, menyediakan beragam ikan mulai dari bibit hingga siap panen.">
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="modal-overlay">
+		<div class="order-modal">
+			<div class="order-modal-header">
+				<h2>Satu Langkah Lagi!</h2>
+				<button class="modal-close" type="button">
+					<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+					</svg>
+				</button>
+			</div>
+			<form class="order-form">
+				<label for="customer-name">Nama</label>
+				<input id="customer-name" name="nama" type="text" required>
+				<label for="customer-phone">Nomor telepon</label>
+				<input id="customer-phone" name="telepon" type="tel" required>
+				<label for="customer-email">Alamat email</label>
+				<input id="customer-email" name="email" type="email" required>
+				<label for="product-name">Produk yang ingin dipesan</label>
+				<input id="product-name" name="produk" type="text" required>
+				<button class="order-button" type="button">Kirim</button>
+				<p class="form-notice"></p>
+			</form>
+		</div>
+	</div>
+
+	<nav class="nav-container">
+		<div class="imgnav-wrapper">
+			<span>Pak Rizky</span><img src="./logousaha.webp" alt="logo-kolam-pakhasan">
+		</div>
+		<div class="nav-link">
+			<a href="index.html">Beranda</a>
+			<a href="product.html">Produk</a>
+			<a href="about.html">Tentang</a>
+			<button class="order-button">Pesan Sekarang!</button>
+		</div>
+	</nav>
+
+	<main>
+		<section class="hero-section">
+			<div class="hero-overlay">
+				<h1>Kolam Pak Rizky</h1>
+				<h2>Peternakan Ikan Rumahan Daerah Surabaya</h2>
+				<p>Kolam Pak Rizky menyediakan beragam pilihan ikan yang dibudidayakan sendiri di lahan pribadi.
+					Diambil langsung dari kolam, sehingga tetap segar sampai di rumah Anda.</p>
+			</div>
+		</section>
+
+		<section class="advantage-section">
+			<h2 class="advantage-title">Kenapa Harus Kolam Pak Rizky?</h2>
+			<ul class="advantage-list">
+				<li class="advantage-item">
+					<span class="advantage-number">1</span>
+					<div class="advantage-content">
+						<h3>Kesegaran Terjaga</h3>
+						<p>Ikan dipanen langsung saat itu juga dari kolam. Kami juga mengatur pengemasan supaya tetap
+							segar sampai rumah Anda.</p>
+					</div>
+				</li>
+				<li class="advantage-item">
+					<span class="advantage-number">2</span>
+					<div class="advantage-content">
+						<h3>Perawatan Khusus</h3>
+						<p>Ikan dirawat dengan mempertimbangkan kebutuhan dan nutrisinya. Kami menggunakan bahan-bahan
+							organik tanpa campuran kimia.</p>
+					</div>
+				</li>
+				<li class="advantage-item">
+					<span class="advantage-number">3</span>
+					<div class="advantage-content">
+						<h3>Pilihan Beragam</h3>
+						<p>Tersedia berbagai jenis ikan sesuai musimnya, mulai dari bibit hingga siap panen.</p>
+					</div>
+				</li>
+				<li class="advantage-item">
+					<span class="advantage-number">4</span>
+					<div class="advantage-content">
+						<h3>Harga Terjangkau</h3>
+						<p>Dengan perawatan maksimal, kami menekan harga seminimal mungkin untuk menjangkau seluruh
+							pasar.</p>
+					</div>
+				</li>
+				<li class="advantage-item">
+					<span class="advantage-number">5</span>
+					<div class="advantage-content">
+						<h3>Gratis Ongkir</h3>
+						<p>Bebas biaya kirim untuk daerah Surabaya, <span>kuota terbatas!</span></p>
+					</div>
+				</li>
+			</ul>
+		</section>
+
+		<section class="gallery">
+			<h2 class="advantage-title">Lihat Kolam Kami</h2>
+			<div class="gallery-grid">
+				<div class="gallery-item gallery-large">
+					<img src="./galeri1.webp" alt="">
+				</div>
+				<div class="gallery-item">
+					<img src="./galeri2.webp" alt="">
+				</div>
+				<div class="gallery-item">
+					<img src="./galeri3.webp" alt="">
+				</div>
+				<div class="gallery-item">
+					<img src="./galeri4.webp" alt="">
+				</div>
+				<div class="gallery-item">
+					<img src="./galeri5.webp" alt="">
+				</div>
+			</div>
+		</section>
+
+		<section class="order-section">
+			<button class="order-button">Pesan Sekarang!</button>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 All Rights Reserved. Kolam Pak Rizky</p>
+	</footer>
+
+	<script src="./script.js"></script>
+</body>
+
+</html>

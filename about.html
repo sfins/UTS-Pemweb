@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang | Kolam Pak Rizky</title>
+    <meta name="description"
+        content="Kolam Pak Rizky adalah peternakan ikan yang dikelola di lahan pribadi. Peternakan ini berada di kota Surabaya, menyediakan beragam ikan mulai dari bibit hingga siap panen.">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="nav-container">
+        <div class="imgnav-wrapper">
+            <span>Pak Rizky</span><img src="./logousaha.webp" alt="logo kolam pak rizky">
+        </div>
+        <div class="nav-link">
+            <a href="index.html">Beranda</a>
+            <a href="product.html">Produk</a>
+            <a href="about.html">Tentang</a>
+            <button class="order-button">Pesan Sekarang!</button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="about-section">
+            <h1>Tentang Kami</h1>
+            <div class="profile">
+                <div class="farm-photo">
+                    <img src="./peternakanikan.webp" alt="Kolam peternakan ikan Pak Rizky">
+                </div>
+                <div class="about-content">
+                    <div class="owner-photo">
+                        <img src="./sutris.webp" alt="">
+                        <p>Pak Rizky</p>
+                    </div>
+                    <div class="about-description">
+                        <p>Pak Rizky telah mendirikan usaha ini sejak tahun 1999. Dimulai dari budidaya lele skala kecil hingga berhasil mengembangkan sampai memiliki 8 jalur distribusi. Semenjak keberhasilan beliau, Pak Rizky berniat menambah jenis ikan yang dia budidayakan, di antaranya saat ini adalah ikan Nila dan ikan Gabus. Pak Rizky juga mendorong pemuda-pemuda yang ingin mengikuti jejak beliau, dengan menyediakan produk bibit lele terjangkau yang sudah dipilah dan gampang dibudidayakan.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 All Rights Reserved. Kolam Pak Rizky</p>
+    </footer>
+
+    <div class="modal-overlay">
+        <div class="order-modal">
+        <div class="order-modal-header">
+            <h2>Satu Langkah Lagi!</h2>
+            <button class="modal-close" type="button">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </button>
+        </div>
+            <form class="order-form">
+            <label for="customer-name">Nama</label>
+            <input id="customer-name" name="nama" type="text" required>
+            <label for="customer-phone">Nomor telepon</label>
+            <input id="customer-phone" name="telepon" type="tel" required>
+            <label for="customer-email">Alamat email</label>
+            <input id="customer-email" name="email" type="email" required>
+            <label for="product-name">Produk yang ingin dipesan</label>
+            <input id="product-name" name="produk" type="text" required>
+            <button class="order-button" type="button">Kirim</button>
+            <p class="form-notice"></p>
+        </form>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Produk | Kolam Pak Rizky</title>
+	<meta name="description" content="Kolam Pak Rizky adalah peternakan ikan yang dikelola di lahan pribadi. Peternakan ini berada di kota Surabaya, menyediakan beragam ikan mulai dari bibit hingga siap panen.">
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<nav class="nav-container">
+		<div class="imgnav-wrapper">
+			<span>Pak Rizky</span><img src="./logousaha.webp" alt="logo-kolam-pakhasan">
+		</div>
+		<div class="nav-link">
+			<a href="index.html">Beranda</a>
+			<a href="product.html">Produk</a>
+			<a href="about.html">Tentang</a>
+			<button class="order-button">Pesan Sekarang!</button>
+		</div>
+	</nav>
+
+	<main>
+		<section class="product-section">
+			<h1>Pilihan Produk Kami</h1>
+			<div class="product-list">
+				<div class="product-card">
+					<img src="./lelebesar.webp" alt="Lele ukuran besar di kolam">
+					<h2>Lele Besar</h2>
+					<p>Ikan lele ukuran besar berumur kurang lebih 5 bulan. Tiap lele bisa mencapai berat hingga 300 gram.</p>
+					<button class="order-button">Pesan Sekarang!</button>
+				</div>
+				<div class="product-card">
+					<img src="./bibitlele.webp" alt="Bibit lele dalam kantong air">
+					<h2>Lele Bibit</h2>
+					<p>Bibit lele sekitar 3-5cm dari kolam kami. Cocok bagi yang ingin memulai budidaya di kolam sendiri.</p>
+					<button class="order-button">Pesan Sekarang!</button>
+				</div>
+                <div class="product-card">
+					<img src="./nilabesar.webp" alt="Bibit lele dalam kantong air">
+					<h2>Nila Besar</h2>
+					<p>Ikan nila ukuran besar berumur kurang lebih 4 bulan.</p>
+					<button class="order-button">Pesan Sekarang!</button>
+				</div>
+                <div class="product-card">
+					<img src="./nilasedangwebp.webp" alt="Bibit lele dalam kantong air">
+					<h2>Nila Sedang</h2>
+					<p>Ikan nilai ukuran sedang, tidak terlalu tua dan tidak terlalu muda. Berat bisa mencapai 200 gram.</p>
+					<button class="order-button">Pesan Sekarang!</button>
+				</div>
+                <div class="product-card">
+					<img src="./gabusbesar.webp" alt="Bibit lele dalam kantong air">
+					<h2>Gabus Besar</h2>
+					<p>Ikan gabus ukuran besar berumur kurang lebih 7 bulan. Berat bisa mencapai 900 gram.</p>
+					<button class="order-button">Pesan Sekarang!</button>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2026 All Rights Reserved. Kolam Pak Rizky</p>
+	</footer>
+
+	<div class="modal-overlay">
+		<div class="order-modal">
+		<div class="order-modal-header">
+			<h2>Satu Langkah Lagi!</h2>
+			<button class="modal-close" type="button">
+				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+				</svg>
+			</button>
+		</div>
+		<form class="order-form">
+			<label for="customer-name">Nama</label>
+			<input id="customer-name" name="nama" type="text" required>
+			<label for="customer-phone">Nomor telepon</label>
+			<input id="customer-phone" name="telepon" type="tel" required>
+			<label for="customer-email">Alamat email</label>
+			<input id="customer-email" name="email" type="email" required>
+			<label for="product-name">Produk yang ingin dipesan</label>
+			<input id="product-name" name="produk" type="text" required>
+			<button class="order-button" type="button">Kirim</button>
+			<p class="form-notice"></p>
+		</form>
+		</div>
+	</div>
+	<script src="./script.js"></script>
+</body>
+</html>
