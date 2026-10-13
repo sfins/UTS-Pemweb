@@ -18,8 +18,6 @@ Website *company profile* statis untuk **Kolam Pak Rizky**, peternakan ikan ruma
 5. [Cara Menjalankan](#-cara-menjalankan)
 6. [Dokumentasi Teknis](#-dokumentasi-teknis)
 7. [SRS (Software Requirements Specification)](#-srs-software-requirements-specification)
-8. [Keterbatasan dan Rencana Pengembangan](#-keterbatasan-dan-rencana-pengembangan)
-9. [Lisensi](#-lisensi)
 
 ---
 
@@ -171,15 +169,6 @@ Aplikasi web statis mandiri yang berjalan sepenuhnya di sisi klien (*browser*).
 |---|---|---|
 | Pengunjung / calon pembeli | Masyarakat umum di Surabaya dan sekitarnya | Melihat produk dan memesan |
 | Pemilik usaha | Pak Rizky | Menampilkan profil dan produk usaha |
-
-**2.3 Batasan**
-- Tanpa *backend*: data formulir tidak dikirim atau disimpan.
-- Konten (teks, produk, gambar) diubah manual dengan menyunting file HTML.
-- Aset gambar harus tersedia di folder yang sama dengan file HTML.
-
-**2.4 Asumsi dan Ketergantungan**
-- Pengguna memakai browser modern dengan JavaScript aktif.
-- Aset gambar format WebP didukung browser pengguna.
 
 ### 3. Kebutuhan Fungsional
 
